@@ -17,9 +17,8 @@ public class atividade10 {
         String linguaNativa;
 
         Random ram = new Random();
-       // int cidadania = ram.nextInt(1, 10);
+        int cidadania = ram.nextInt(1, 10);
 
-        int cidadania = 10;
         if (cidadania == 1) {
             linguaNativa = "Português";
         } else if (cidadania == 2) {
