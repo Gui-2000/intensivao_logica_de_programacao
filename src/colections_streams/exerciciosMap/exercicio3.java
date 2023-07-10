@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class exercicio2 {
-    //2:busca um indice metodo get(chave);
+public class exercicio3 {
+    //3:busca se existe ou nao um valor metodo containerKey(chave);
     public static void main(String[] args) {
 
         Map<String, Integer> livros = new HashMap<>();
@@ -17,7 +17,8 @@ public class exercicio2 {
         livros.put("Cronicas de Narnia", 7);
         livros.put("A Song of Ice and Fire", 6);
 
-        System.out.println("Quantidade de livros da saga Harry Potter? " + livros.get("Harry Potter"));
+        System.out.println("Existe a saga Crepúsculo no map! " + livros.containsKey("Crepúsculo"));
+        System.out.println("Existe a saga Senhor dos Aneis no map! " + livros.containsKey("Senhor dos Aneis"));
     }
 }
 
